@@ -1,0 +1,10 @@
+/* CSS */
+
+html, body {
+  background: #ffffff;
+  color: #333333;
+}
+
+.w-200 {
+  width: 200px;
+}

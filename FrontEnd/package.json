@@ -1,0 +1,66 @@
+{
+  "name": "ZEN",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 8085",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@johmun/vue-tags-input": "^2.1.0",
+    "@kevinfaguiar/vue-twemoji-picker": "^5.7.4",
+    "@popperjs/core": "^2.10.1",
+    "@videojs/http-streaming": "^2.14.2",
+    "animate.css": "^4.1.1",
+    "axios": "^0.21.4",
+    "bootstrap": "^5.1.1",
+    "chokidar": "^3.5.2",
+    "ckeditor4-vue": "^2.1.0",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.9",
+    "fabric": "^4.6.0",
+    "jquery": "^3.6.0",
+    "jw-vue-pagination": "^1.0.3",
+    "popper.js": "^1.16.1",
+    "pusher-js": "^7.3.0",
+    "sweetalert2": "^11.1.7",
+    "video.js": "^7.20.1",
+    "videojs-contrib-hls": "^5.15.0",
+    "vue": "^2.6.11",
+    "vue-emoji-picker": "^1.0.3",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.5.2",
+    "vueperslides": "^2.15.3",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "element-theme-dark": "^1.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "jquery": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
